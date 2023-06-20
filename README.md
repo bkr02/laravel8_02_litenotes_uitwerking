@@ -1,25 +1,27 @@
 Ter info: een Laravel app die je van Github haalt werkt niet gelijk. Je moet eerst een aantal dingen doen:
 
-Clone de app vanaf Github (Open with Github Desktop)
+1. Clone de app vanaf Github (_Open with Github Desktop_)
 
-Open de app in je IDE
+2. Open de app in je IDE
 
-Open een Terminal
+3. Open een Terminal
 
-Run het commando: composer install
+4. Run het commando: **composer install**
 
-Maak een copy van . env.example en verander de naam in .env
+5. Maak een copy van  **.env.example** en verander de naam in **.env**
 
-Run het commando: php** artisan key:generate** Hiermee krijgt de sleutel in je .env een correcte waarde.
+6. Run het commando: **php artisan key:generate**
+ Hiermee krijgt de sleutel in je .env een correcte waarde.
 
-Open het .env bestand Check of de database gegevens kloppen, en pas aan indien nodig.
+7. Open het .env bestand
+Check of de database gegevens kloppen, en pas aan indien nodig.
 
-Run het commando: php artisan migrate
+8. Run het commando: **php artisan migrate**
 
-Run het commando: npm install
+9. Run het commando: **npm install**
 
-Run het commando: npm run dev
+10. Run het commando: **npm run dev**
 
-Run het commando: php artisan migrate
+11. Run het commando: **php artisan migrate**
 
-Run het commando: php artisan serve
+12. Run het commando: **php artisan serve**
